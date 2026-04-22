@@ -109,7 +109,22 @@ class YashBrahmankar:
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mysql,postgres,supabase,aws,gcp,docker&theme=dark" />
 </p>
+### 🤖 Machine Learning & Deep Learning
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=sklearn,tensorflow,pytorch&theme=dark" />
+</p>
 
+### 📦 Libraries
+<p align="center">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Seaborn-3A7DBF?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SciPy-0C4A6E?style=for-the-badge&logo=scipy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/🤗_Transformers-FFD21E?style=for-the-badge&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+</p>
 ### 📊 Data & Analytics
 <p align="center">
   <img src="https://img.icons8.com/color/48/microsoft-excel-2019.png" title="Excel" width="40" height="40" style="background:#0d1117;border:1.5px solid #30363d;border-radius:5px;padding:8px;box-sizing:border-box;object-fit:contain;"/>
