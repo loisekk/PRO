@@ -122,17 +122,19 @@
 
       <div style="position:relative;margin-bottom:6px">
         <div style="font-family:'Courier New',monospace;font-size:17px;font-weight:700;color:#f1f5f9;letter-spacing:0.15em;animation:nameReveal 1.2s cubic-bezier(0.16,1,0.3,1) 0.4s both,glitchFlash 7s linear 3s infinite;opacity:0">YASH BRAHMANKAR</div>
-        <div style="position:absolute;inset:0;font-family:'Courier New',monospace;font-size:17px;font-weight:700;color:#7c3aed55;letter-spacing:0.15em;animation:nameReveal 1.2s cubic-bezier(0.16,1,0.3,1) 0.45s both,glitchFlash 7s linear 3.05s infinite;transform:translateX(2px);opacity:0;pointer-events:none"></div>
+        <div style="position:absolute;inset:0;font-family:'Courier New',monospace;font-size:17px;font-weight:700;color:#7c3aed55;letter-spacing:0.15em;animation:nameReveal 1.2s cubic-bezier(0.16,1,0.3,1) 0.45s both,glitchFlash 7s linear 3.05s infinite;transform:translateX(2px);opacity:0;pointer-events:none">YASH BRAHMANKAR</div>
       </div>
 
       <div style="height:1px;background:linear-gradient(90deg,#7c3aed,#06b6d4,transparent);transform-origin:left;animation:lineExpand 1s cubic-bezier(0.16,1,0.3,1) 0.8s both;transform:scaleX(0);margin-bottom:8px"></div>
 
-      <div style="font-size:8.5px;color:#7c3aed;font-family:var(--font-sans);letter-spacing:0.12em;margin-bottom:10px;animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1s both;opacity:0">AI ENGINEER · OIST 2024–2028</div>
+      <div style="font-size:8.5px;color:#7c3aed;font-family:var(--font-sans);letter-spacing:0.12em;margin-bottom:10px;animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1s both;opacity:0">B.Tech AI & ML · OIST 2024–2028</div>
 
       <div style="font-size:8px;font-family:var(--font-sans);line-height:1.9;color:#64748b;margin-bottom:10px">
-        <div style="animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.1s both;opacity:0"><span style="color:#06b6d4">◈</span> <span style="color:#94a3b8">Bhopal, MP, India</span></div>
+        <div style="animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.1s both;opacity:0"><span style="color:#06b6d4">◈</span> <span style="color:#94a3b8">Bhopal, Madhya Pradesh, India</span></div>
         <div style="animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.25s both;opacity:0"><span style="color:#7c3aed">◈</span> <span style="color:#94a3b8">Oracle Certified · Cisco Certified</span></div>
-        <div style="animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.4s both;opacity:0"><span style="color:#39d353">◈</span> <span style="color:#94a3b8">Building LLMs · RAG · Agentic AI</span></div>
+        <div style="animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.4s both;opacity:0"><span style="color:#39d353">◈</span> <span style="color:#94a3b8">Building LLM Systems · Agentic AI</span></div>
+        <div style="animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.55s both;opacity:0"><span style="color:#f59e0b">◈</span> <span style="color:#94a3b8">Prompt Engineering · Data Science · DSA</span></div>
+        <div style="animation:fadeSlide 0.5s cubic-bezier(0.16,1,0.3,1) 1.7s both;opacity:0"><span style="color:#a78bfa">◈</span> <span style="color:#94a3b8">Python Developer & LeetCode Enthusiast</span></div>
       </div>
 
       <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px">
