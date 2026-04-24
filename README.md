@@ -366,6 +366,8 @@
 </div>
 
 ---
+## 🌐 Portfolio
+[View my full profile →](https://yourusername.github.io)
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    FOOTER                                 -->
