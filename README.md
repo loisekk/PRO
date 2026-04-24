@@ -7,6 +7,12 @@
 
 <br/>
 
+<p align="center">
+  <a href="https://loisekk.github.io">
+    <img src="https://github-profile-trophy.vercel.app/?username=loisekk&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=4" width="100%" />
+  </a>
+</p>
+
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=750&lines=🤖+AI+%26+Machine+Learning+Engineer;🧠+LLM+Systems+%7C+Agentic+AI+%7C+Prompt+Engineering;📊+Data+Science+%26+Analytics;🚀+Building+Intelligent+Systems+That+Create+Impact;Oracle+Certified+%7C+Cisco+Certified+%7C+OIST+2024-2028)](https://git.io/typing-svg)
