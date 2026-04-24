@@ -32,9 +32,7 @@
 [View my full profile →](https://loisekk.github.io)
 
 <p align="center">
-  <a href="https://loisekk.github.io">
-    <img src="https://github-profile-trophy.vercel.app/?username=loisekk&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=4" width="100%" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=loisekk&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=6&rank=SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies" />
 </p>
 ---
 
