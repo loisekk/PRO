@@ -22,6 +22,8 @@
 </div>
 
 ---
+## 🌐 Portfolio
+[View my full profile →](https://loisekk.github.io)
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                      ABOUT ME                             -->
