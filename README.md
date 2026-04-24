@@ -32,7 +32,7 @@
 [View my full profile →](https://loisekk.github.io)
 
 <p align="center">
-<img src="https://gh-trophies.vercel.app/?username=loisekk&theme=radical&no-frame=true" />
+<img src="https://trophy.gitprofile.app/?username=loisekk&theme=radical" />
 </p>
 ---
 
