@@ -40,11 +40,11 @@ hr.d{border:none;border-top:1px solid #21262d;margin:12px 8px;}
 </head>
 <body>
 <div class="wrap">
-
+ 
 <div class="gif-c">
   <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" style="border-radius:10px;width:100px;"/>
 </div>
-
+ 
 <!-- SECTION 1 -->
 <div class="sec-title">🛠 Language · Tools · Competitive · AI</div>
 <div class="grid">
@@ -57,9 +57,9 @@ hr.d{border:none;border-top:1px solid #21262d;margin:12px 8px;}
   <div class="card-wrap" style="animation-delay:.52s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="animation-delay:1.3s"/></div><span class="lbl">CSS</span></div></div></div>
   <div class="card-wrap" style="animation-delay:.59s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="animation-delay:1.5s"/></div><span class="lbl">VSCode</span></div></div></div>
 </div>
-
+ 
 <hr class="d"/>
-
+ 
 <!-- SECTION 2 -->
 <div class="sec-title">🤖 Machine Learning & Deep Learning</div>
 <div class="grid">
@@ -80,9 +80,9 @@ hr.d{border:none;border-top:1px solid #21262d;margin:12px 8px;}
     <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:1.8s"><rect width="38" height="38" rx="9" fill="#FFD21E"/><text x="19" y="26" text-anchor="middle" font-size="22" font-family="sans-serif">🤗</text></svg></div>
     <span class="lbl">HF</span></div></div></div>
 </div>
-
+ 
 <hr class="d"/>
-
+ 
 <!-- SECTION 3 -->
 <div class="sec-title">🧠 LLM & Agentic AI</div>
 <div class="grid">
@@ -104,62 +104,8 @@ hr.d{border:none;border-top:1px solid #21262d;margin:12px 8px;}
     <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:.5s"><rect width="38" height="38" rx="9" fill="#0A66C2"/><text x="19" y="16" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif" font-weight="bold">MCP</text><text x="19" y="27" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">SERVER</text></svg></div>
     <span class="lbl">MCP</span></div></div></div>
 </div>
-
+ 
 <hr class="d"/>
-
-<!-- SECTION 4 -->
-<div class="sec-title">🗄️ Databases & Cloud</div>
-<div class="grid">
-  <div class="card-wrap" style="animation-delay:1.99s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="animation-delay:.3s"/></div><span class="lbl">MySQL</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.06s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" style="animation-delay:.7s"/></div><span class="lbl">Postgres</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.13s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" style="animation-delay:1.1s"/></div><span class="lbl">Supabase</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.20s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" style="animation-delay:1.5s"/></div><span class="lbl">AWS</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.27s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" style="animation-delay:1.9s"/></div><span class="lbl">GCP</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.34s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" style="animation-delay:.4s"/></div><span class="lbl">Docker</span></div></div></div>
-</div>
-
-<hr class="d"/>
-
-<!-- SECTION 5 -->
-<div class="sec-title">📊 Data & Analytics</div>
-<div class="grid">
-  <div class="card-wrap" style="animation-delay:2.41s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftoffice/microsoftoffice-plain.svg" style="filter:hue-rotate(90deg)saturate(2);animation-delay:.6s"/></div><span class="lbl">Excel</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.48s"><div class="card"><div class="front"><div class="shine"></div>
-    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:.9s"><rect width="38" height="38" rx="9" fill="#F2C811"/><text x="19" y="16" text-anchor="middle" font-size="8" fill="#000" font-family="sans-serif" font-weight="bold">Power</text><text x="19" y="28" text-anchor="middle" font-size="9" fill="#000" font-family="sans-serif" font-weight="bold">BI</text></svg></div>
-    <span class="lbl">Power BI</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.55s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" style="animation-delay:1.2s"/></div><span class="lbl">Jupyter</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.62s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" style="animation-delay:1.5s"/></div><span class="lbl">Kaggle</span></div></div></div>
-  <div class="card-wrap" style="animation-delay:2.69s"><div class="card"><div class="front"><div class="shine"></div>
-    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:1.8s"><rect width="38" height="38" rx="9" fill="#FFD21E"/><text x="19" y="26" text-anchor="middle" font-size="22" font-family="sans-serif">🤗</text></svg></div>
-    <span class="lbl">HuggingFace</span></div></div></div>
-</div>
-
-</div>
-</body>
-</html>
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=750&lines=🤖+AI+%26+Machine+Learning+Engineer;🧠+LLM+Systems+%7C+Agentic+AI+%7C+Prompt+Engineering;📊+Data+Science+%26+Analytics;🚀+Building+Intelligent+Systems+That+Create+Impact;Oracle+Certified+%7C+Cisco+Certified+%7C+OIST+2024-2028)](https://git.io/typing-svg)
-
-<br/>
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Oracle](https://img.shields.io/badge/Oracle%20Certified-F80000?style=for-the-badge&logo=oracle&logoColor=white)](.)
-[![Cisco](https://img.shields.io/badge/Cisco%20Certified-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)](.)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Active-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=loisekk&label=Profile%20Views&color=7c3aed&style=for-the-badge)](.)
-
-</div>
-
----
-## 🌐 Portfolio
-[View my full profile →](https://loisekk.github.io)
-
-<p align="center">
-<img src="https://trophy.gitprofile.app/?username=loisekk&theme=radical" />
-</p>
----
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                     TECH STACK                            -->
