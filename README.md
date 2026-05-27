@@ -7,11 +7,136 @@
 
 <br/>
 
-<p align="center">
-  <a href="https://loisekk.github.io">
-    <img src="https://github-profile-trophy.vercel.app/?username=loisekk&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=4" width="100%" />
-  </a>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tech Stack</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#0d1117;}
+.wrap{background:#0d1117;padding:18px 12px;font-family:sans-serif;}
+.sec-title{color:#e6edf3;font-size:11px;letter-spacing:.7px;text-align:center;margin:16px 0 10px;text-transform:uppercase;opacity:.65;}
+.grid{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:4px;}
+.card-wrap{perspective:600px;width:80px;height:90px;opacity:0;transform:scale(.4)translateY(30px);animation:popIn .5s cubic-bezier(.34,1.56,.64,1) forwards;}
+@keyframes popIn{0%{opacity:0;transform:scale(.4)translateY(30px)rotateX(30deg);}60%{opacity:1;transform:scale(1.12)translateY(-5px)rotateX(-5deg);}80%{transform:scale(.96)translateY(2px)rotateX(2deg);}100%{opacity:1;transform:scale(1)translateY(0)rotateX(0);}}
+.card{width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform .4s cubic-bezier(.34,1.36,.64,1);}
+.card-wrap:hover .card{transform:rotateY(15deg)rotateX(-10deg)scale(1.16)translateY(-6px);}
+.front{position:absolute;inset:0;background:#161b22;border:1px solid #30363d;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;transition:border-color .25s,background .25s;}
+.card-wrap:hover .front{border-color:#58a6ff;background:#1a2233;}
+.icon-wrap{width:38px;height:38px;display:flex;align-items:center;justify-content:center;}
+.icon-wrap img,.icon-wrap svg{width:38px;height:38px;object-fit:contain;animation:floatBob 2.6s ease-in-out infinite;}
+@keyframes floatBob{0%,100%{transform:translateY(0)rotate(0deg)scale(1);}25%{transform:translateY(-4px)rotate(-3deg)scale(1.05);}50%{transform:translateY(-6px)rotate(0deg)scale(1.08);}75%{transform:translateY(-3px)rotate(3deg)scale(1.04);}}
+.card-wrap:hover .icon-wrap img,.card-wrap:hover .icon-wrap svg{animation:floatBobFast 1.2s ease-in-out infinite;filter:drop-shadow(0 4px 8px rgba(88,166,255,.5));}
+@keyframes floatBobFast{0%,100%{transform:translateY(0)scale(1);}50%{transform:translateY(-7px)scale(1.12);}}
+.lbl{font-size:10px;color:#8b949e;text-align:center;line-height:1.2;transition:color .25s;}
+.card-wrap:hover .lbl{color:#e6edf3;}
+.shine{position:absolute;inset:0;border-radius:12px;background:linear-gradient(135deg,rgba(88,166,255,.14) 0%,transparent 55%);opacity:0;transition:opacity .3s;pointer-events:none;}
+.card-wrap:hover .shine{opacity:1;}
+hr.d{border:none;border-top:1px solid #21262d;margin:12px 8px;}
+.gif-c{text-align:center;margin-bottom:14px;opacity:0;animation:popIn .5s cubic-bezier(.34,1.56,.64,1) forwards .05s;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="gif-c">
+  <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" style="border-radius:10px;width:100px;"/>
+</div>
+
+<!-- SECTION 1 -->
+<div class="sec-title">🛠 Language · Tools · Competitive · AI</div>
+<div class="grid">
+  <div class="card-wrap" style="animation-delay:.10s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="animation-delay:.10s"/></div><span class="lbl">Python</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.17s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" style="animation-delay:.3s"/></div><span class="lbl">C</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.24s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" style="animation-delay:.5s"/></div><span class="lbl">FastAPI</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.31s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="filter:invert(1)brightness(.9);animation-delay:.7s"/></div><span class="lbl">GitHub</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.38s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="animation-delay:.9s"/></div><span class="lbl">Git</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.45s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="animation-delay:1.1s"/></div><span class="lbl">HTML</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.52s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="animation-delay:1.3s"/></div><span class="lbl">CSS</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.59s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="animation-delay:1.5s"/></div><span class="lbl">VSCode</span></div></div></div>
+</div>
+
+<hr class="d"/>
+
+<!-- SECTION 2 -->
+<div class="sec-title">🤖 Machine Learning & Deep Learning</div>
+<div class="grid">
+  <div class="card-wrap" style="animation-delay:.66s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" style="animation-delay:.2s"/></div><span class="lbl">Sklearn</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.73s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" style="animation-delay:.5s"/></div><span class="lbl">TensorFlow</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.80s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" style="animation-delay:.8s"/></div><span class="lbl">PyTorch</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.87s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" style="animation-delay:1.1s"/></div><span class="lbl">NumPy</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:.94s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" style="animation-delay:1.4s"/></div><span class="lbl">Pandas</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.01s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" style="animation-delay:1.7s"/></div><span class="lbl">Matplotlib</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.08s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" style="animation-delay:.3s"/></div><span class="lbl">Keras</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.15s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" style="animation-delay:.6s"/></div><span class="lbl">Streamlit</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.22s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scipy/scipy-original.svg" style="animation-delay:.9s"/></div><span class="lbl">SciPy</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.29s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" style="animation-delay:1.2s"/></div><span class="lbl">Plotly</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.36s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:1.5s"><circle cx="19" cy="19" r="17" fill="#3A7DBF"/><text x="19" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="white" font-family="sans-serif">SB</text></svg></div>
+    <span class="lbl">Seaborn</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.43s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:1.8s"><rect width="38" height="38" rx="9" fill="#FFD21E"/><text x="19" y="26" text-anchor="middle" font-size="22" font-family="sans-serif">🤗</text></svg></div>
+    <span class="lbl">HF</span></div></div></div>
+</div>
+
+<hr class="d"/>
+
+<!-- SECTION 3 -->
+<div class="sec-title">🧠 LLM & Agentic AI</div>
+<div class="grid">
+  <div class="card-wrap" style="animation-delay:1.50s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/langchain/langchain-original.svg" style="animation-delay:.4s"/></div><span class="lbl">LangChain</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.57s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:.7s"><rect width="38" height="38" rx="9" fill="#1C3C3C"/><text x="19" y="16" text-anchor="middle" font-size="8" fill="#00C896" font-family="sans-serif" font-weight="bold">LANG</text><text x="19" y="27" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif" font-weight="bold">GRAPH</text></svg></div>
+    <span class="lbl">LangGraph</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.64s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg" style="filter:invert(1)brightness(.9);animation-delay:1.0s"/></div><span class="lbl">OpenAI</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.71s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:1.3s"><rect width="38" height="38" rx="9" fill="#C96442"/><text x="19" y="24" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff" font-family="sans-serif">Claude</text></svg></div>
+    <span class="lbl">Claude</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.78s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:1.6s"><rect width="38" height="38" rx="9" fill="#7C3AED"/><text x="19" y="16" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif" font-weight="bold">AI</text><text x="19" y="27" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif" font-weight="bold">AGENTS</text></svg></div>
+    <span class="lbl">AI Agents</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.85s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:.2s"><rect width="38" height="38" rx="9" fill="#6366F1"/><text x="19" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff" font-family="sans-serif">RAG</text></svg></div>
+    <span class="lbl">RAG</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:1.92s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:.5s"><rect width="38" height="38" rx="9" fill="#0A66C2"/><text x="19" y="16" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif" font-weight="bold">MCP</text><text x="19" y="27" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">SERVER</text></svg></div>
+    <span class="lbl">MCP</span></div></div></div>
+</div>
+
+<hr class="d"/>
+
+<!-- SECTION 4 -->
+<div class="sec-title">🗄️ Databases & Cloud</div>
+<div class="grid">
+  <div class="card-wrap" style="animation-delay:1.99s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="animation-delay:.3s"/></div><span class="lbl">MySQL</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.06s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" style="animation-delay:.7s"/></div><span class="lbl">Postgres</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.13s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" style="animation-delay:1.1s"/></div><span class="lbl">Supabase</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.20s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" style="animation-delay:1.5s"/></div><span class="lbl">AWS</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.27s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" style="animation-delay:1.9s"/></div><span class="lbl">GCP</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.34s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" style="animation-delay:.4s"/></div><span class="lbl">Docker</span></div></div></div>
+</div>
+
+<hr class="d"/>
+
+<!-- SECTION 5 -->
+<div class="sec-title">📊 Data & Analytics</div>
+<div class="grid">
+  <div class="card-wrap" style="animation-delay:2.41s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftoffice/microsoftoffice-plain.svg" style="filter:hue-rotate(90deg)saturate(2);animation-delay:.6s"/></div><span class="lbl">Excel</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.48s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:.9s"><rect width="38" height="38" rx="9" fill="#F2C811"/><text x="19" y="16" text-anchor="middle" font-size="8" fill="#000" font-family="sans-serif" font-weight="bold">Power</text><text x="19" y="28" text-anchor="middle" font-size="9" fill="#000" font-family="sans-serif" font-weight="bold">BI</text></svg></div>
+    <span class="lbl">Power BI</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.55s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" style="animation-delay:1.2s"/></div><span class="lbl">Jupyter</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.62s"><div class="card"><div class="front"><div class="shine"></div><div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" style="animation-delay:1.5s"/></div><span class="lbl">Kaggle</span></div></div></div>
+  <div class="card-wrap" style="animation-delay:2.69s"><div class="card"><div class="front"><div class="shine"></div>
+    <div class="icon-wrap"><svg viewBox="0 0 38 38" style="animation-delay:1.8s"><rect width="38" height="38" rx="9" fill="#FFD21E"/><text x="19" y="26" text-anchor="middle" font-size="22" font-family="sans-serif">🤗</text></svg></div>
+    <span class="lbl">HuggingFace</span></div></div></div>
+</div>
+
+</div>
+</body>
+</html>
 
 <div align="center">
 
