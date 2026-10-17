@@ -55,18 +55,14 @@
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--        ENGINEERING TELEMETRY  (replaces GitHub Stats)     -->
+<!--     CONTRIBUTION SKYLINE  (replaces GitHub Stats)         -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 📡 Engineering Telemetry
+## 🏙️ Contribution Skyline
 
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&border_radius=12" height="170" alt="Contribution Streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Telemetry%20%E2%80%94%20Last%2031%20Days" width="100%" alt="Contribution Activity Graph"/>
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/skyline-output/contribution-skyline.svg" width="100%" alt="Isometric 3D skyline of my last year of GitHub contributions"/>
+</p>
 
 ## 🏆 LeetCode Info
 
@@ -130,24 +126,6 @@
   <sub>🟩 Name rendered in GitHub contribution-style green pixel blocks</sub>
 </p>
 
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--     ARCADE CONTRIBUTION GRAPH  (replaces Snake)           -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-## 👾 Contribution Arcade
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/loisekk/loisekk/pacman-output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/loisekk/loisekk/pacman-output/pacman-contribution-graph.svg">
-    <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/loisekk/loisekk/pacman-output/pacman-contribution-graph-dark.svg" width="100%"/>
-  </picture>
-</p>
-
-<p align="center">
-  <sub>🟡 Pac-Man eats my real contributions — regenerated daily by GitHub Actions</sub>
-</p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--   PRODUCTION ENGINEERING FOCUS (interactive capability grid) -->
