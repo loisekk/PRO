@@ -85,28 +85,14 @@
 
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--      SYSTEM BLUEPRINT  (replaces Profile Summary cards)   -->
+<!--      3D CAPABILITY STACK  (replaces process diagram)      -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🏗️ How I Ship AI Systems
+## 🧊 Capability Stack
 
-Every system I build runs through the same closed loop — nothing reaches production without passing an eval gate, and nothing stays in production without telemetry.
-
-```mermaid
-flowchart LR
-    A["📦 Data & Prompts<br/>versioned artifacts"] --> B["🤖 Agent Harness<br/>LangGraph · MCP · tools"]
-    B --> C{"🧪 Eval Gate<br/>LLM evals in CI"}
-    C -- pass --> D["🚀 Deploy<br/>Docker · AWS · CI/CD"]
-    C -- fail --> A
-    D --> E["📡 Observe<br/>traces · cost · latency · drift"]
-    E --> A
-
-    style A fill:#1e1b4b,stroke:#7c3aed,color:#e9d5ff
-    style B fill:#1e1b4b,stroke:#7c3aed,color:#e9d5ff
-    style C fill:#3b0764,stroke:#a78bfa,color:#ffffff
-    style D fill:#1e1b4b,stroke:#7c3aed,color:#e9d5ff
-    style E fill:#1e1b4b,stroke:#7c3aed,color:#e9d5ff
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/assets/capability-stack-3d.svg" width="100%" alt="Isometric 3D capability stack: Multi-Agent Systems, Evaluation Engineering, LLMOps / MLOps / Cloud, Transformers"/>
+</p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                  GITHUB TROPHIES                          -->
@@ -164,98 +150,158 @@ flowchart LR
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--   PRODUCTION ENGINEERING FOCUS (replaces Learning Roadmap)  -->
+<!--   PRODUCTION ENGINEERING FOCUS (interactive capability grid) -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🏭 Production Engineering Focus
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,docker,aws,githubactions,pytorch,redis,postgres,linux,git&theme=dark&perline=10" alt="Production stack"/>
-</p>
+<p align="center"><sub>👇 Expand any domain — scope of ownership and how I measure it</sub></p>
 
-<p align="center"><sub>👇 Expand a domain to see what I build, ship, and operate</sub></p>
-
-<details>
-<summary><b>🔭 LLMOps</b> — running LLM systems in production</summary>
-
-<br/>
-
-- Prompt & model versioning, config-driven releases, rollbacks
-- Tracing and observability across every LLM and tool call
-- Cost, latency, and token budgets enforced per request
-- Guardrails, fallbacks, caching, and model routing
-
-</details>
+<table>
+<tr>
+<td valign="top" width="50%">
 
 <details>
-<summary><b>⚙️ MLOps</b> — reproducible pipelines, automated delivery</summary>
-
+<summary><b>🔭 LLMOps</b><br/><sub>Operating LLM systems like production software</sub></summary>
 <br/>
-
-- Experiment tracking, data and model versioning, model registry
-- CI/CD for training and serving pipelines
-- Containerized, reproducible environments
-- Monitoring for data drift and model degradation
-
+<b>What I own</b>
+<ul>
+<li>Prompt, model and config versioning with controlled rollout and rollback</li>
+<li>End-to-end tracing across every model and tool call</li>
+<li>Per-request cost, latency and quality budgets</li>
+<li>Guardrails, fallbacks and routing for graceful degradation</li>
+</ul>
+<b>Measured by</b> &nbsp;·&nbsp; <sub>p95 latency · cost per task · regression rate</sub>
+<br/><br/>
 </details>
+
+</td>
+<td valign="top" width="50%">
 
 <details>
-<summary><b>🧪 LLM Evals</b> — measuring quality before users do</summary>
-
+<summary><b>⚙️ MLOps</b><br/><sub>Reproducible pipelines, automated delivery</sub></summary>
 <br/>
-
-- Golden datasets and regression suites wired into CI as release gates
-- LLM-as-judge with calibrated rubrics, plus human review loops
-- RAG metrics: faithfulness, context precision, context recall
-- Agent trajectory and tool-use evaluation
-
+<b>What I own</b>
+<ul>
+<li>Experiment tracking, data and model versioning, model registry</li>
+<li>CI/CD for training and serving pipelines</li>
+<li>Containerized, reproducible environments</li>
+<li>Drift and degradation monitoring with alerting</li>
+</ul>
+<b>Measured by</b> &nbsp;·&nbsp; <sub>reproducibility · time-to-deploy · time-to-detect drift</sub>
+<br/><br/>
 </details>
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
 <details>
-<summary><b>🕸️ Multi-Agent Harness Engineering</b> — orchestration that survives production</summary>
-
+<summary><b>🧪 LLM Evals</b><br/><sub>Quality measured before users find the gaps</sub></summary>
 <br/>
-
-- Stateful multi-agent graphs with LangGraph
-- MCP servers and strict tool-calling contracts
-- Retries, timeouts, step budgets, and human-in-the-loop checkpoints
-- Sandboxed execution and a reproducible agent evaluation harness
-
+<b>What I own</b>
+<ul>
+<li>Golden datasets and regression suites as release gates</li>
+<li>Calibrated LLM-as-judge rubrics backed by human review</li>
+<li>RAG metrics: faithfulness, context precision and recall</li>
+<li>Agent trajectory and tool-use evaluation</li>
+</ul>
+<b>Measured by</b> &nbsp;·&nbsp; <sub>gate pass-rate · judge–human agreement · escaped defects</sub>
+<br/><br/>
 </details>
+
+</td>
+<td valign="top" width="50%">
 
 <details>
-<summary><b>☁️ AWS & Cloud Infrastructure</b> — deploying and operating at scale</summary>
-
+<summary><b>🕸️ Multi-Agent Harness Engineering</b><br/><sub>Orchestration built to survive production</sub></summary>
 <br/>
-
-- Compute and serving: Lambda, ECS/Fargate, EC2
-- Storage and data: S3, managed Postgres, Redis
-- Security and ops: IAM least-privilege, secrets management, CloudWatch
-- Infrastructure as code and automated deploy pipelines
-
+<b>What I own</b>
+<ul>
+<li>Stateful multi-agent graphs, MCP servers and strict tool contracts</li>
+<li>Retries, timeouts and step budgets with human-in-the-loop checkpoints</li>
+<li>Sandboxed execution for untrusted tool calls</li>
+<li>A reproducible harness for evaluating agent behavior</li>
+</ul>
+<b>Measured by</b> &nbsp;·&nbsp; <sub>task success rate · steps per task · recovery rate</sub>
+<br/><br/>
 </details>
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
 <details>
-<summary><b>🔎 RAG & Retrieval Systems</b> — grounded, measurable answers</summary>
-
+<summary><b>🧠 Transformers &amp; Model Adaptation</b><br/><sub>Understanding the model, not just calling it</sub></summary>
 <br/>
-
-- Hybrid retrieval (dense + keyword) with reranking
-- Chunking and indexing strategy tuned against eval results
-- Vector stores in production, with freshness and access control
-
+<b>What I own</b>
+<ul>
+<li>Attention mechanics, tokenization and context-window trade-offs</li>
+<li>Parameter-efficient fine-tuning and domain adaptation</li>
+<li>Quantization, batching and KV-cache-aware inference</li>
+<li>Model selection driven by task-level evals, not leaderboards</li>
+</ul>
+<b>Measured by</b> &nbsp;·&nbsp; <sub>quality delta vs. baseline · tokens/sec · memory footprint</sub>
+<br/><br/>
 </details>
+
+</td>
+<td valign="top" width="50%">
 
 <details>
-<summary><b>🚦 Serving, APIs & Reliability</b> — the layer users actually touch</summary>
-
+<summary><b>☁️ AWS &amp; Cloud Infrastructure</b><br/><sub>Deploy, secure and operate at scale</sub></summary>
 <br/>
-
-- FastAPI services with async I/O and streaming responses
-- Queues, rate limiting, and graceful degradation
-- Prompt-injection defenses and input/output validation
-
+<b>What I own</b>
+<ul>
+<li>Serverless and container compute, managed data stores</li>
+<li>IAM least-privilege, secrets management and audit trails</li>
+<li>Infrastructure as code with automated, reviewable deploys</li>
+<li>Monitoring, alarms and cost visibility from day one</li>
+</ul>
+<b>Measured by</b> &nbsp;·&nbsp; <sub>deploy frequency · availability · cost per request</sub>
+<br/><br/>
 </details>
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+<details>
+<summary><b>🔎 RAG &amp; Retrieval Systems</b><br/><sub>Grounded, measurable answers</sub></summary>
+<br/>
+<b>What I own</b>
+<ul>
+<li>Hybrid retrieval with reranking</li>
+<li>Chunking and indexing strategy tuned against eval results</li>
+<li>Production vector stores with freshness and access control</li>
+</ul>
+<b>Measured by</b> &nbsp;·&nbsp; <sub>faithfulness · retrieval recall · answer latency</sub>
+<br/><br/>
+</details>
+
+</td>
+<td valign="top" width="50%">
+
+<details>
+<summary><b>🚦 Serving, APIs &amp; Reliability</b><br/><sub>The layer users actually touch</sub></summary>
+<br/>
+<b>What I own</b>
+<ul>
+<li>Async, streaming APIs with backpressure</li>
+<li>Queues, rate limiting and graceful degradation</li>
+<li>Prompt-injection defense and input/output validation</li>
+<li>SLO-driven alerting and incident readiness</li>
+</ul>
+<b>Measured by</b> &nbsp;·&nbsp; <sub>availability · error budget · p95 latency</sub>
+<br/><br/>
+</details>
+
+</td>
+</tr>
+</table>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                  FOUNDER — OPENML                         -->
