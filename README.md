@@ -44,10 +44,8 @@
 <!--                     TECH STACK                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-
-
 <p align="center">
-  <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img>
+  <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="200" height="200" alt="Animated tech stack"/>
 </p>
 
 <p align="center">
@@ -55,13 +53,47 @@
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--     CONTRIBUTION SKYLINE  (replaces GitHub Stats)         -->
+<!--                  CONTRIBUTION TULKUN                      -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+## 🐋 Contribution Tulkun
+
+<p align="center">
+  <a href="https://github.com/PramudithaN/git-tulkun">
+    <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/tulkun/tulkun.gif" width="640" alt="loisekk's git-tulkun: a pixel-art whale that grows with yearly contributions" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>🐋 Grows with my yearly contributions · regenerated daily by GitHub Actions · resets Jan 1 · <a href="https://github.com/PramudithaN/git-tulkun">git-tulkun</a> (unofficial fan project)</sub>
+</p>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                  ASCII BLACK HOLE                         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- NOTE: GitHub strips <script> and custom elements from READMEs, so this renders
+     blank on github.com. It works on GitHub Pages (loisekk.github.io) and other sites. -->
+
+<div align="center">
+
+<script type="module" src="https://ascii.rest/ascii.js"></script>
+
+<ascii-art piece="black-hole"></ascii-art>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--        CONTRIBUTION SKYLINE  (replaces Engineering Telemetry) -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🏙️ Contribution Skyline
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/loisekk/loisekk/skyline-output/contribution-skyline.svg" width="100%" alt="Isometric 3D skyline of my last year of GitHub contributions"/>
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/skyline-output/skyline.svg" width="100%" alt="My GitHub contribution graph as an animated ASCII city: each week is a building, each active day a lit window"/>
+</p>
+
+<p align="center">
+  <sub>🏙️ Each week is a building · each active day a lit window · redrawn nightly by GitHub Actions · <a href="https://github.com/pinkpixel-dev/skyline">skyline</a></sub>
 </p>
 
 ## 🏆 LeetCode Info
@@ -112,20 +144,17 @@
   <sub>✨ Contribution history rendered as an animated 3D constellation</sub>
 </p>
 
-
-
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--               PIXEL NAME ART (GREEN BLOCKS)               -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/output/pixel-name.svg" alt="YASH B. — Pixel Name Art" width="100%"/>
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/assets/pixel-name.svg" alt="YASH B. rendered in GitHub contribution-style green pixel blocks" width="80%"/>
 </p>
 
 <p align="center">
   <sub>🟩 Name rendered in GitHub contribution-style green pixel blocks</sub>
 </p>
-
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--   PRODUCTION ENGINEERING FOCUS (interactive capability grid) -->
