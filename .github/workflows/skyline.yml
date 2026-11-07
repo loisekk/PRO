@@ -1,0 +1,39 @@
+# Redraws the skyline nightly and publishes skyline.svg to its OWN branch.
+# Do NOT use `output`: the Tulkun action owns that branch, and this job
+# force-pushes a fresh orphan branch, which would wipe tulkun.gif.
+name: skyline
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  skyline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-go@v7
+        with:
+          go-version: stable
+
+      - name: Draw skyline
+        env:
+          # Optional: add a SKYLINE_TOKEN secret (classic PAT, read:user) to
+          # include private contributions. Falls back to the workflow token.
+          GITHUB_TOKEN: ${{ secrets.SKYLINE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: go run github.com/pinkpixel-dev/skyline@latest -theme crimson -svg skyline.svg "${{ github.repository_owner }}"
+
+      - name: Publish to skyline-output branch
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir out && mv skyline.svg out/ && cd out
+          git init -q -b skyline-output
+          git add skyline.svg
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -qm "Update skyline"
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git" skyline-output
